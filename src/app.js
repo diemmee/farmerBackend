@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const riceDiseasesRouter = require("./routes/riceDiseases.router");
+const riceDiseasesRouter = require("./routes/diseases.router");
 const {
     resourceNotFound,
     handleError,

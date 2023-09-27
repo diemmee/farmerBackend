@@ -1,5 +1,3 @@
-const { head } = require("./app");
-
 class ApiError extends Error {
     constructor(statusCode, message, headers = {}) {
         super();
